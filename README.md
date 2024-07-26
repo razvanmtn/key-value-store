@@ -25,3 +25,10 @@ Create Value with expiration
 Delete Value
 `DELETE:/:key`
 
+## Build docker image
+
+`docker build -t key-value-store .`
+
+## Run docker image
+
+`docker run -d -p 3000:3000 key-value-store`
