@@ -1,0 +1,19 @@
+{
+  "name": "key-value-store",
+  "version": "1.0.0",
+  "repository": "git@github.com:razvanmtn/key-value-store.git",
+  "author": "Razvan Muntian <razvanmuntian@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
