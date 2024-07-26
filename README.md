@@ -23,5 +23,5 @@ Create Value with expiration
 `POST:/:key?ms=5000`
 
 Delete Value
-`DELETE:/:key
+`DELETE:/:key`
 
